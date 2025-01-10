@@ -18,6 +18,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - gensim >=3.6.0,<4.0
     - matplotlib-base >=3.1.0
